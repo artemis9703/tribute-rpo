@@ -16,7 +16,7 @@ h2 {
     font-size: 50px;
 }
 hr {
-    border: 2px white dashed;
+    border: 2px white solid;
 }
 a {
     color: white;
