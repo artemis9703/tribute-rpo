@@ -1,9 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 html {
-    background-image: url("https://imgs.search.brave.com/dsTmT6ZUQte9_VpH44Ka9hxuFDcZPx_3j19_3iVDa2E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vLW1LSXpy/VDc3di0yT29oeUtW/S1VKVERoalQ2YURF/b3dpMklhemhHOU1t/cy9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTkz/WVd4cy9jR0Z3WlhK/aFkyTmxjM011L1ky/OXRMMloxYkd3dk1U/ZzUvTnpBeU5pNXFj/R2M");
-    background-size: cover;
+    background-image: url("https://imgs.search.brave.com/MgOvjaJw3y0YygqA1Edpnj1QNwvslG18y53IEqRjK_M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vMzEtaGZL/amtUc2taNnZ5bHBl/eEQwbkJ6MkliSVFh/YnQ1ZXNLbWIxaE90/Yy9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlw/YldjdS9abkpsWlhC/cGF5NWpiMjB2L1pu/SmxaUzEyWldOMGIz/SXYvY0hWeWNHeGxM/V2R5WVdScC9aVzUw/TFhSbFkyaHViMnh2/L1oza3RZbUZqYTJk/eWIzVnUvWkY4eU15/MHlNVFE1TVRFNC9P/RFV3TG1wd1p6OXpa/VzEwL1BXRnBjMTlv/ZVdKeWFXUW0vZHow/M05EQQ");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100%;
 }
 body {
     font-family: 'Share Tech Mono', monospace;
+    color: white;
+    text-align: center;
+}
+h2 {
+    padding: 20px;
+    font-size: 50px;
+}
+hr {
+    style: 2px white solid;
 }
