@@ -25,6 +25,12 @@ a {
 h3 {
     font-size: 30px; 
 }
+h4 {
+    font-size: 22px;
+}
 h5 {
     font-size: 18px;
+}
+ul {
+    list-style-type: none;
 }
