@@ -34,3 +34,12 @@ h5 {
 ul {
     list-style-type: none;
 }
+td {
+    border: 1px solid white;
+}
+th {
+    border: 1px solid white;
+}
+table {
+    margin: auto;
+}
