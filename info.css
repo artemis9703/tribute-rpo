@@ -56,10 +56,13 @@ table {
     font-size:1.2em;
     z-index: 1000;
 }
-.copperKey {
+.keys {
     width: 10px;
     padding-right: 75%;
 }
 .gate {
     text-decoration: none;
+}
+.gatePic {
+    width: 250px;
 }
