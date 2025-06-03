@@ -22,6 +22,19 @@
             <li>Fantasy Worlds: Sectors containing worlds like Middle Earth, Magrathea, and Discworld.</li>
         </ul>
         <p>Worlds</p>
+        <img src="https://static.wikia.nocookie.net/readyplayerone/images/6/62/Ascalonian_Key2.png/revision/latest?cb=20131123005323" alt="copper key" onclick="showCopperClue()" class="copperKey">
+        <div id="copperClue" class="clue">
+            What you seek lies hidden in trash on the deepest level of Daggorath.
+        </div>
+        <script>
+            function showCopperClue() {
+                var copperClue = document.getElementById("copperClue");
+                copperClue.style.display = "block";
+                setTimeout(function() {
+                    copperClue.style.display = "none";
+                }, 3000);
+            }
+        </script>
         <ul>            
             <li>Ludus: The planet where schools are located; it is safe, with no monsters or adventure, making it difficult for players to gain experience points.
             <li>Middletown: Modeled after Halliday’s boyhood home, contains a recreation of his parents' house and is where the First Gate is completed.

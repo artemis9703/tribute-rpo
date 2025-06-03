@@ -43,3 +43,23 @@ th {
 table {
     margin: auto;
 }
+.clue {
+    display: none;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #c61390;
+    color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    font-size:1.2em;
+    z-index: 1000;
+}
+.copperKey {
+    width: 10px;
+    padding-right: 75%;
+}
+.gate {
+    text-decoration: none;
+}

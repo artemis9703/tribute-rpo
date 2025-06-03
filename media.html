@@ -50,7 +50,20 @@
             <li>Tempest</li>
             <li>Adventure (Atari 2600)</li>
             <li>Black Tiger</li>
-            <li>Dungeons of Daggorath</li>
+            <a href="#" onclick="showCopperGate()" class="gate"><li>Dungeons of Daggorath</li></a>
+            <div id="copperGate" class="clue">
+                The captain conceals the Jade Key<br>in a dwelling long neglected<br>But you can only blow the whistle<br>once the trophies are all collected.
+            </div>
+            <script>
+                function showCopperGate() {
+                    event.preventDefault();
+                    var copperGate = document.getElementById("copperGate");
+                    copperGate.style.display = "block";
+                    setTimeout(function() {
+                        copperGate.style.display = "none";
+                    }, 3000);
+                }
+            </script>
             <li>Zork (text adventure)</li>
             <li>Space Invaders</li>
             <li>Defender</li>
