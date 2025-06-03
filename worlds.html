@@ -22,29 +22,44 @@
             <li>Fantasy Worlds: Sectors containing worlds like Middle Earth, Magrathea, and Discworld.</li>
         </ul>
         <p>Worlds</p>
-        <img src="https://static.wikia.nocookie.net/readyplayerone/images/6/62/Ascalonian_Key2.png/revision/latest?cb=20131123005323" alt="copper key" onclick="showCopperClue()" class="keys">
-        <div id="copperClue" class="clue">
-            What you seek lies hidden in trash on the deepest level of Daggorath.
-        </div>
-        <script>
-            function showCopperClue() {
-                var copperClue = document.getElementById("copperClue");
-                copperClue.style.display = "block";
-                setTimeout(function() {
-                    copperClue.style.display = "none";
-                }, 3000);
-            }
-        </script>
         <ul>            
-            <li>Ludus: The planet where schools are located; it is safe, with no monsters or adventure, making it difficult for players to gain experience points.
-            <li>Middletown: Modeled after Halliday’s boyhood home, contains a recreation of his parents' house and is where the First Gate is completed.
-            <li>Archaide: Features a hidden recreation of an arcade from Halliday’s hometown.
-            <li>Frobozz: Contains a recreation of the text adventure game Zork.
-            <li>Syrinx: Where the famed Crystal Key is found.
-            <li>Chthonia: Location of Castle Anorak, Halliday’s private stronghold, and the Third Gate.
+            <li>
+                <img src="https://static.wikia.nocookie.net/readyplayerone/images/6/62/Ascalonian_Key2.png/revision/latest?cb=20131123005323" alt="copper key" onclick="showCopperClue()" class="keys">
+                <div id="copperClue" class="clue">
+                    What you seek lies hidden in trash on the deepest level of Daggorath.
+               </div>
+                <script>
+                    function showCopperClue() {
+                        var copperClue = document.getElementById("copperClue");
+                        copperClue.style.display = "block";
+                        setTimeout(function() {
+                            copperClue.style.display = "none";
+                    }, 3000);
+                    }
+                </script>
+                Ludus: The planet where schools are located; it is safe, with no monsters or adventure, making it difficult for players to gain experience points.
+            </li>
+            <li>Middletown: Modeled after Halliday’s boyhood home, contains a recreation of his parents' house and is where the First Gate is completed.</li>
+            <li>Archaide: Features a hidden recreation of an arcade from Halliday’s hometown.</li>
+            <li>Frobozz: Contains a recreation of the text adventure game Zork.</li>
+            <li>Syrinx: Where the famed Crystal Key is found.</li>
+            <li>Chthonia: Location of <a href="#" onclick="showCrystalGate()" class="gate">Castle Anorak,</a><div id="crystalGate" class="clue">
+                Game over, Player One wins!
+            <img alt="egg" class="gatePic" src="https://imgs.search.brave.com/wVYXjqKTqSSLLjBL8-6MXgtEDDy7h2LE3YPgm0uv2dc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMxLnNyY2RuLmNv/bS93b3JkcHJlc3Mv/d3AtY29udGVudC91/cGxvYWRzLzIwMTgv/MDMvUmVhZHktUGxh/eWVyLU9uZS1GaW5h/bC1FYXN0ZXItRWdn/LmpwZw">
+            </div>
+            <script>
+                function showCrystalGate() {
+                    event.preventDefault();
+                    var crystalGate = document.getElementById("crystalGate");
+                    crystalGate.style.display = "block";
+                    setTimeout(function() {
+                        crystalGate.style.display = "none";
+                    }, 3000);
+                }
+            </script>Halliday’s private stronghold, and the Third Gate.</li>
         </ul>
         <p>World Creation</p> Any player can buy or create a new world, so the number of worlds is constantly growing.
-        <p>Travel</p> Players can travel between worlds using spaceships, teleporters, or special artifacts, with some sectors or worlds requiring specific technology or magic for entry.
+        <p>Travel</p> Players can travel between worlds using spaceships, teleporters, or special artifacts, with some sectors or worlds requiring specific technology or magic for entry.<?
         <p>Sector Themes</p> Some sectors are science fiction, others are fantasy, and some are mixed, with D&D regions and magical settings.</p>
         <h5><a href="index.html">Back to central nexus</a></h5>
     </body>

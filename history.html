@@ -27,6 +27,19 @@
         <p>Expansion</p>
         <ul>
             <li>The OASIS quickly grew into the world's most popular platform for everything</li>
+            <li>It grew to include locations from famous series like Back to the Future, <a href="#" onclick="showJadeGate()" class="gate">Blade Runner</a><div id="jadeGate" class="clue">
+                <img alt="rush logo" class="gatePic" src="https://imgs.search.brave.com/vkUoUTPU-3kJQteXZSCLHdqiLCh0b_KyxR4BOSWcjFU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzIyMTgxMTU5L3Iv/aWwvNTcwNzg4LzQz/MTI1OTIwMzcvaWxf/NjAweDYwMC40MzEy/NTkyMDM3X3E2aW4u/anBn">
+            </div>
+            <script>
+                function showJadeGate() {
+                    event.preventDefault();
+                    var jadeGate = document.getElementById("jadeGate");
+                    jadeGate.style.display = "block";
+                    setTimeout(function() {
+                        jadeGate.style.display = "none";
+                    }, 3000);
+                }
+            </script>, and Star Wars</li>
             <li>OASIS credits became a stable currency with real-world value</li>
             <li>The OASIS became accessible through more advanced tech like visors and haptic gloves</li>
         </ul>

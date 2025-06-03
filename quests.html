@@ -41,7 +41,19 @@
             </tr>
             <tr>
                 <td>The Crystal Key</td>
-                <td>Syrinx</td>
+                <td>Syrinx<img src="https://static.wikia.nocookie.net/readyplayerone/images/d/d4/Crystal_Key.png/revision/latest?cb=20180523152740" alt="crystal key" onclick="showCrystalClue()" class="keys">
+                <div id="crystalClue" class="clue">
+                    The first was ringed in red metal<br>The second, in green stone<br>The thrid in clearest crystal<br>And cannot be unlocked alone
+               </div>
+                <script>
+                    function showCrystalClue() {
+                        var crystalClue = document.getElementById("crystalClue");
+                        crystalClue.style.display = "block";
+                        setTimeout(function() {
+                            crystalClue.style.display = "none";
+                    }, 3000);
+                    }
+                </script></td>
                 <td>1.  Find the temple on the doomed planet Syrinx (from Rush’s 2112).<br>2.   Locate a hidden guitar and play a specific riff from the album, returning it to the altar.</td>
                 <td>The Crystal Key and a clue to the Crystal Gate</td>
             </tr>

@@ -65,7 +65,19 @@
                     }, 3000);
                 }
             </script>
-            <li>Zork (text adventure)</li>
+            <li>Zork (text adventure)<img src="https://static.wikia.nocookie.net/readyplayerone/images/a/ab/Key2-image.png/revision/latest?cb=20180308221736" alt="jade key" class="keys" onclick="showJadeKey()">
+            <div id="jadeKey" class="clue">
+                Continue your quest by taking the test
+            </div>
+            <script>
+                function showJadeKey() {
+                    var jadeKey = document.getElementById("jadeKey");
+                    jadeKey.style.display = "block";
+                    setTimeout(function() {
+                        jadeKey.style.display = "none";
+                    }, 3000);
+                }
+            </script></li>
             <li>Space Invaders</li>
             <li>Defender</li>
             <li>Qbert*</li>
